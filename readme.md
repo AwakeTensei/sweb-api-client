@@ -1,13 +1,13 @@
 # Sweb API PHP Client
 
-Клиент для взаимодействия с API хостинга [sweb.ru](https://sweb.ru) в формате JRPC. Поддерживает авторизацию и управление доменами по API.
+Клиентская PHP-библиотека для взаимодействия с JSON-RPC API хостинга [sweb.ru](https://sweb.ru). Поддерживает авторизацию и управление доменами через API.
 
-Требования к окружению
+## 1. Требования к окружению:
 
-PHP 8.3
-Composer
+- PHP 8.3
+- Composer
 
-Структура проекта
+## 2. Структура проекта:
 
 /sweb-api/
   ├── src/
@@ -22,33 +22,30 @@ Composer
   ├── phpunit.xml
   └── logs/
 
-Установка
+## Установка
 
-Клонируйте репозиторий:
+1. Клонирование репозитория:
 
-git clone https://github.com/yourname/sweb-api-client.git
-cd sweb-api
+   ```bash
+   git clone https://github.com/yourname/sweb-api-client.git
+   cd sweb-api
 
+2. Установка зависимостей:
 
+   ```bash
+   composer install
 
-Установите зависимости:
+4. Автозагрузка классов:
 
-composer install
+   ```bash
+   composer dump-autoload
 
+5. Запуск тестов:
 
+   ```bash
+   vendor/bin/phpunit
 
-Сгенерируйте автозагрузку классов:
+7. Проверка функциональности через консольный интерфейс:
 
-composer dump-autoload
-
-
-
-Запустите тесты:
-
-vendor/bin/phpunit
-
-
-
-Проверьте функциональность через консольный интерфейс:
-
-php console.php
+   ```bash
+   php console.php
