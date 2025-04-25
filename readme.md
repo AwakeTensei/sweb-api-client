@@ -7,21 +7,6 @@
 - PHP 8.3
 - Composer
 
-## 2. Структура проекта:
-
-/sweb-api/
-  ├── src/
-  │   ├── ApiClient.php
-  │   ├── AuthService.php
-  │   ├── DomainService.php
-  │   └── Logger.php
-  ├── tests/
-  │   ├── AuthServiceTest.php
-  │   └── DomainServiceTest.php
-  ├── composer.json
-  ├── phpunit.xml
-  └── logs/
-
 ## Установка
 
 1. Клонирование репозитория:
